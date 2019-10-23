@@ -121,30 +121,28 @@
 /*Modified by FlaboDotEs*/
 
 /* Results */
-.wp-polls-ul li:nth-child(01) .pollbar{ background:#8FA0C5}
-.wp-polls-ul li:nth-child(02) .pollbar{ background:#FF8}
-.wp-polls-ul li:nth-child(03) .pollbar{ background:#ff8a3b}
-.wp-polls-ul li:nth-child(04) .pollbar{ background:#a61e2a}
-.wp-polls-ul li:nth-child(05) .pollbar{ background:#4ebbff}
-.wp-polls-ul li:nth-child(06) .pollbar{ background:#fbca54}
-.wp-polls-ul li:nth-child(07) .pollbar{ background:#aad34f}
-.wp-polls-ul li:nth-child(08) .pollbar{ background:#66cc9a}
-.wp-polls-ul li:nth-child(09) .pollbar{ background:#98CBCB}
-.wp-polls-ul li:nth-child(10) .pollbar{ background:#a67c52}
+.wp-polls-ul{ 
+  font-size: 20px;
+}
+.wp-polls .pollbar { 
+  background:black; 
+  border: 1px solid black;
+  height: 20px;
+}
 .wp-polls-ul li .pollbar{ transition: background 0.7s ease-in-out }
 .wp-polls-ul li .pollbar:hover{ background:#F00 }
 
 /* Answers */
-.wp-polls-ul li:nth-child(01) { background:#8FA0C5}
-.wp-polls-ul li:nth-child(02) { background:#FF8}
-.wp-polls-ul li:nth-child(03) { background:#ff8a3b}
-.wp-polls-ul li:nth-child(04) { background:#a61e2a}
-.wp-polls-ul li:nth-child(05) { background:#4ebbff}
-.wp-polls-ul li:nth-child(06) { background:#fbca54}
-.wp-polls-ul li:nth-child(07) { background:#aad34f}
-.wp-polls-ul li:nth-child(08) { background:#66cc9a}
-.wp-polls-ul li:nth-child(09) { background:#98CBCB}
-.wp-polls-ul li:nth-child(10) { background:#a67c52}
+.wp-polls-ul li:nth-child(01) { background:#EEE}
+.wp-polls-ul li:nth-child(02) { background:#EEF}
+.wp-polls-ul li:nth-child(03) { background:#EFE}
+.wp-polls-ul li:nth-child(04) { background:#FEE}
+.wp-polls-ul li:nth-child(05) { background:#DEE}
+.wp-polls-ul li:nth-child(06) { background:#EDE}
+.wp-polls-ul li:nth-child(07) { background:#EED}
+.wp-polls-ul li:nth-child(08) { background:#CEE}
+.wp-polls-ul li:nth-child(09) { background:#ECE}
+.wp-polls-ul li:nth-child(10) { background:#EEC}
 
 .wp-polls-ans {
 	width:75%;
